@@ -16,11 +16,11 @@ This project implements a Retrieval-Augmented Generation (RAG) system using Goog
     ```
 
 2.  **Environment Setup**:
-    - Rename the example environment file:
+    - Create a file named `.env` in the project root:
       ```bash
-      mv .env.example .env
+      touch .env
       ```
-    - Edit `.env` and add your API key:
+    - Open `.env` and add your Google Cloud API key:
       ```
       GOOGLE_API_KEY=your_actual_api_key_here
       ```
